@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    
+    <link rel="stylesheet" href="../css/style.css">
+    
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Weather</title>
+    <link rel="icon" href="/img/weather.png">
+</head>
+<body>
+    <div class="main-content">
+        {{>header}}
+        <p>Use this site to get ypur weather</p>
+        <form>
+            <input placeholder="Location">
+            <button type="search">Search</button>
+        </form>
+
+        <p id="message-1"></p>   
+        <p id="message-2"></p>
+    </div>
+    
+    {{>footer}}
+
+    <script src="/js/app.js"></script>    
+</body>
+</html>
